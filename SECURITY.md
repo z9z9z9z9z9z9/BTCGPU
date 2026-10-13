@@ -2,19 +2,58 @@
 
 ## Supported Versions
 
-See our website for versions of Bitcoin Core that are currently supported with
-security updates: https://bitcoincore.org/en/lifecycle/#schedule
+| Version | Supported          |
+| ------- | ------------------ |
+| Latest release | :white_check_mark: |
+| Older releases | :x:                |
+
+Only the latest release of Bitcoin Gold is actively supported for security updates.
 
 ## Reporting a Vulnerability
 
-To report security issues send an email to security@bitcoincore.org (not for support).
+We take the security of Bitcoin Gold seriously. If you believe you have found a security vulnerability, please report it to us responsibly.
 
-The following keys may be used to communicate sensitive information to developers:
+**Please do not report security vulnerabilities through public GitHub issues, discussions, or pull requests.**
 
-| Name | Fingerprint |
-|------|-------------|
-| Wladimir van der Laan | 71A3 B167 3540 5025 D447  E8F2 7481 0B01 2346 C9A6 |
-| Jonas Schnelli | 32EE 5C4C 3FA1 5CCA DB46  ABE5 29D4 BCB6 416F 53EC |
-| Pieter Wuille | 133E AC17 9436 F14A 5CF1  B794 860F EB80 4E66 9320 |
+### Preferred Reporting Method
 
-You can import a key by running the following command with that individual’s fingerprint: `gpg --recv-keys "<fingerprint>"` Ensure that you put quotes around fingerprints containing spaces.
+Send a detailed report to:
+
+**security@bitcoingold.org**
+
+(or the current active security contact if this address is outdated)
+
+### What to Include in Your Report
+
+- A clear description of the vulnerability
+- Steps to reproduce the issue
+- Affected versions / commit hashes
+- Potential impact (especially any consensus, inflation, or fund-theft risks)
+- Any proof-of-concept code (preferably limited to private test networks)
+- Your preferred contact method and whether you wish to be publicly credited
+
+### Response Timeline
+
+- We will acknowledge receipt of your report within **72 hours**.
+- We will provide an initial assessment within **7 days**.
+- We aim to release a fix or mitigation as quickly as reasonably possible while coordinating disclosure.
+
+### Disclosure Policy
+
+We follow coordinated/responsible disclosure:
+
+1. You report the issue privately.
+2. We work with you to understand and fix the issue.
+3. A public advisory is published after a fix is available (or after a mutually agreed time window).
+4. We will credit researchers who report valid issues (unless you prefer to remain anonymous).
+
+### Safe Harbor
+
+We consider security research conducted in good faith under this policy to be authorized. We will not pursue legal action against researchers who:
+
+- Make a good-faith effort to avoid privacy violations, data destruction, or interruption of service
+- Do not exploit the vulnerability beyond what is necessary to demonstrate it
+- Report the vulnerability promptly and do not publicly disclose it before a coordinated release
+
+Thank you for helping keep Bitcoin Gold and its users safe.
+```
